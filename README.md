@@ -1,4 +1,4 @@
-# Compound Security–Climate Vulnerability Framework for Water Systems
+# A Compound Crisis Framework for Water System Vulnerability Assessment: Systematic Scenario Exploration with Interaction Effects
 
 This repository contains the code, input data, and analysis scripts used in the study:
 
