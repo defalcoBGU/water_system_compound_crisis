@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Compound Security–Climate Vulnerability of a Desalination-Dependent Water System: Scenario Analysis for Israel"
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - family-names: "Bot"
+    given-names: "Karol"
+  - family-names: "De Falco"
+    given-names: "Natalie"
+  - family-names: "Renn"
+    given-names: "Jurgen"
+  - family-names: "Weisbrod"
+    given-names: "Noam"
+version: "1.0.0"
+date-released: "2026-06-04"
+license: "MIT"
+repository-code: "https://github.com/defalcoBGU/water_system_compound_crisis/"
