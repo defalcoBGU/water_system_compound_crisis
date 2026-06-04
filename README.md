@@ -5,7 +5,11 @@ This repository contains the code, input data, and analysis scripts used in the 
 **Bot, K., De Falco, N., Renn, J., and Weisbrod, N.**
 
 *Compound Security–Climate Vulnerability of a Desalination-Dependent Water System: Scenario Analysis for Israel.*
+## Citation and archive
 
+This repository is archived on Zenodo:
+
+DOI: https://doi.org/10.5281/zenodo.20541621
 
 ## Repository contents
 
@@ -35,18 +39,13 @@ The workflow reproduces the scenario analysis, sensitivity analyses, uncertainty
 
 ## Data availability
 
-This repository contains the data, code, and scripts required to reproduce the analyses presented in the manuscript. The repository is provided for transparency and reproducibility during peer review and will be archived with a permanent DOI upon publication.
+This repository contains the data, code, and scripts required to reproduce the analyses presented in the manuscript.
 
-## License
+The repository is publicly available and archived on Zenodo:
 
-MIT License.
+https://doi.org/10.5281/zenodo.20541621
 
-## Contact
-
-Natalie De Falco
-Zuckerberg Institute for Water Research
-Ben-Gurion University of the Negev
-[defalco@bgu.ac.il](mailto:defalco@bgu.ac.il)
+The archived release corresponds to version v1.0 of the software used for the analyses reported in the manuscript.
 
 
 ## What's in the box
@@ -155,7 +154,14 @@ The γ multipliers and severity parameters come from the manuscript's reference 
 
 ## Citing
 
-If you use this framework, please cite the manuscript and link to this repository.
+If you use this framework, please cite the associated manuscript and the archived software release:
+
+Bot, K., De Falco, N., Renn, J., & Weisbrod, N. (2026).
+
+Compound Security–Climate Vulnerability of a Desalination-Dependent Water System: Scenario Analysis for Israel
+
+Software archive:
+https://doi.org/10.5281/zenodo.20541621
 
 ## License
 
