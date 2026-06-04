@@ -2,7 +2,7 @@
 
 This repository contains the code, input data, and analysis scripts used in the study:
 
-**De Falco, N., Bot, K., Renn, J., and Weisbrod, N.**
+**Bot, K., De Falco, N., Renn, J., and Weisbrod, N.**
 
 *Compound Security–Climate Vulnerability of a Desalination-Dependent Water System: Scenario Analysis for Israel.*
 
