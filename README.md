@@ -1,4 +1,4 @@
-# Water System Compound Crisis Framework
+# Compound Security–Climate Vulnerability Framework for Water Systems
 
 This repository contains the code, input data, and analysis scripts used in the study:
 
@@ -6,7 +6,6 @@ This repository contains the code, input data, and analysis scripts used in the 
 
 *Compound Security–Climate Vulnerability of a Desalination-Dependent Water System: Scenario Analysis for Israel.*
 
-Submitted to *Water Resources Research* (2026).
 
 ## Repository contents
 
@@ -89,15 +88,6 @@ multicrisis_framework/
 │   ├── conflict_params.csv
 │   ├── cyber_params.csv
 │   └── compound_crisis_impact_summary.csv  # archived Tier 1 reference (task0)
-│
-├── docs/                           # manuscript + revision documentation
-│   ├── multicrisis_manuscript_FINAL.docx
-│   ├── multicrisis_supplementary_FINAL.docx
-│   ├── MANUSCRIPT_CORRECTIONS.md   # 15 numbered corrections (C1–C15)
-│   ├── FINAL_FILL_IN.md            # placeholder → computed-value map
-│   ├── COWORK_HANDOVER.md          # remaining manual editorial tasks
-│   ├── FIGURE_INSERTION_GUIDE.md   # caption text + file paths for new figures
-│   └── MANIFEST.md                 # full inventory of revision outputs
 │
 └── results/                        # populated by running the scripts (gitignored)
 ```
