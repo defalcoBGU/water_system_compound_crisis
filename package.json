@@ -1,0 +1,15 @@
+{
+  "name": "multicrisis-supplementary-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "docx-js helper that rebuilds the Supplementary Materials .docx from the task outputs.",
+  "scripts": {
+    "build-supp": "node scripts/build_supplementary.js"
+  },
+  "dependencies": {
+    "docx": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

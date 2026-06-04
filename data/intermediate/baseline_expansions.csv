@@ -1,0 +1,9 @@
+
+Year,DesalExpansionMCM,ReuseExpansionMCM,Notes
+2020,0,0,Existing desal capacity in 2020 (~600 MCM)
+2025,0,20,No new capacity added by 2025
+2030,100,30,New plant (Sorek II) adding 100 MCM by 2030
+2035,200,50,Additional expansions (planned) by 2035 totaling 200 MCM
+2040,200,80,Incremental expansions (400 MCM total extra) by 2040
+2045,300,100,Further expansions to keep pace with demand
+2050,600,150,Total desal capacity target ~1200 MCM by 2050

@@ -1,0 +1,5 @@
+
+Parameter,Optimistic,Moderate,Pessimistic
+DesalDowntimeFraction,0.01,0.05,0.1
+AffectedSupplyProportion,0.1,0.2,0.5
+OPEXCostMultiplier,1.05,1.15,1.3

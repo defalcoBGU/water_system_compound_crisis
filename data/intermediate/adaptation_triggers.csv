@@ -1,0 +1,7 @@
+
+Condition,Action,Effect,DelayYears,Notes
+UnmetDemand >= 0.05 for 2 consecutive years,AddDesalCapacity,+100 MCM/year desal after 2-year lag,2,Capped by master plan
+EnergyIntensity rising and OPEX > 0.80 for 2 years,ImproveEnergyEfficiency,Reduce energy intensity by 5% and OPEX by 10%,0,Triggered when both rising energy intensity and high OPEX
+UnmetDemand > 0 in a year,DemandManagementCuts,"-5% domestic, -10% industrial, -20% agriculture next year",1,Cuts remain until 2 years of no unmet demand
+WSI > 1.3 for 2 years,IncreaseReuse,+30 MCM/year reuse capacity,0,Limited by available wastewater generation
+Conflict event occurs,Hardening,-5% future conflict impact,0,Implementation can include redundancy and hardening investments

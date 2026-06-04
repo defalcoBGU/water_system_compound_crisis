@@ -1,0 +1,26 @@
+{
+  "random_seed": 20260423,
+  "crisis_years": [
+    2030,
+    2031,
+    2032
+  ],
+  "n_scenarios": 243,
+  "max_abs_diff_vs_archive": {
+    "supply_reduction": 1.4210854715202004e-14,
+    "wsi_increase": 4.440892098500626e-16,
+    "gap_change": 2.2737367544323206e-13
+  },
+  "worst_case_new": {
+    "name": "Drought(Pessimistic)+Energy(Pessimistic)+Conflict(Pessimistic)+Cyber(Pessimistic)",
+    "supply_reduction_pct": 82.76612315506642,
+    "wsi_increase": 5.828783068698389
+  },
+  "worst_case_archive": {
+    "name": "Drought(Pessimistic)+Energy(Pessimistic)+Conflict(Pessimistic)+Cyber(Pessimistic)",
+    "supply_reduction_pct": 82.76612315506642,
+    "wsi_increase": 5.828783068698389
+  },
+  "R2_pes_vs_wsi_new": 0.5863777928077482,
+  "R2_pes_vs_wsi_archive": 0.5863777928077482
+}

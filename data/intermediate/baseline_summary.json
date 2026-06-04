@@ -1,0 +1,103 @@
+{
+  "analysis_info": {
+    "analysis_date": "2025-10-13 11:47:13",
+    "analysis_period": "1990-2023 (34 years)",
+    "projection_period": "2025-2050 (26 years)",
+    "total_analysis_span": "1990-2050 (61 years)"
+  },
+  "data_quality": {
+    "historical_years": 36,
+    "variables_count": 72,
+    "missing_data_handling": "Linear interpolation for small gaps, NaN filled with 0 for desalination pre-2005",
+    "data_consistency": "Complete supply and demand data for all years 1990-2023",
+    "data_approach": "Raw data analysis - no sustainability caps applied"
+  },
+  "calibration_parameters": {
+    "sustainable_groundwater_cap": 500.0,
+    "wastewater_reuse_cap": 800.0,
+    "calibration_notes": "Parameters available for reference only - NOT applied in raw data approach",
+    "raw_data_approach": "Uses actual historical values without sustainability constraints"
+  },
+  "key_baseline_metrics": {
+    "average_total_supply_1990_2023": 2117.6624429117646,
+    "average_total_demand_1990_2023": 2001.4882352941179,
+    "average_supply_gap_1990_2023": 116.17420761764706,
+    "final_year_supply_2023": 2566.9,
+    "final_year_demand_2023": 2413.3,
+    "desalination_capacity_2023": 586.6
+  },
+  "infrastructure_expansions": {
+    "total_planned_expansions": 7,
+    "desalination_expansion_timeline": [
+      {
+        "Year": 2020,
+        "DesalExpansionMCM": 600
+      },
+      {
+        "Year": 2025,
+        "DesalExpansionMCM": 0
+      },
+      {
+        "Year": 2030,
+        "DesalExpansionMCM": 100
+      },
+      {
+        "Year": 2035,
+        "DesalExpansionMCM": 200
+      },
+      {
+        "Year": 2040,
+        "DesalExpansionMCM": 200
+      },
+      {
+        "Year": 2045,
+        "DesalExpansionMCM": 300
+      },
+      {
+        "Year": 2050,
+        "DesalExpansionMCM": 600
+      }
+    ],
+    "reuse_expansion_timeline": [
+      {
+        "Year": 2020,
+        "ReuseExpansionMCM": 0
+      },
+      {
+        "Year": 2025,
+        "ReuseExpansionMCM": 20
+      },
+      {
+        "Year": 2030,
+        "ReuseExpansionMCM": 30
+      },
+      {
+        "Year": 2035,
+        "ReuseExpansionMCM": 50
+      },
+      {
+        "Year": 2040,
+        "ReuseExpansionMCM": 80
+      },
+      {
+        "Year": 2045,
+        "ReuseExpansionMCM": 100
+      },
+      {
+        "Year": 2050,
+        "ReuseExpansionMCM": 150
+      }
+    ]
+  },
+  "projection_metrics": {
+    "projected_demand_2025": 2465.64396,
+    "projected_demand_2050": 4045.150260991755,
+    "projected_supply_2025": 2586.9,
+    "projected_supply_2050": 4396.9,
+    "projected_desalination_2050": 1986.6,
+    "projected_wsi_2050": 2.9192106956713255,
+    "projected_ddr_2050": 0.45181832654824994,
+    "demand_growth_rate": "2% annually",
+    "minimum_surplus": -345.07766840368413
+  }
+}

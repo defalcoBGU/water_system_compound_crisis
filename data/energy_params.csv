@@ -1,0 +1,5 @@
+
+Parameter,Optimistic,Moderate,Pessimistic
+DesalCapacityFactor,0.95,0.85,0.7
+OPEXCostMultiplier,1.1,1.25,1.5
+DurationYears,1.0,1.0,2.0
