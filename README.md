@@ -1,10 +1,54 @@
-# Multicrisis Compound Water-Crisis Framework
+# Water System Compound Crisis Framework
 
-Computational framework for compound security–climate vulnerability assessment of desalination-dependent, centrally-managed water systems. Implements the methodology of:
+This repository contains the code, input data, and analysis scripts used in the study:
 
-> Bot, K., De Falco, N., Renn, J., Weisbrod, N. *Compound Security–Climate Vulnerability of a Desalination-Dependent Water System: Scenario Analysis for Israel.* (Manuscript in revision for *Earth's Future*.)
+**De Falco, N., Bot, K., Renn, J., and Weisbrod, N.**
 
-The framework enumerates 243 compound crisis scenarios (4 stressor types × 3 severity levels, subset sizes 2/3/4), applies pairwise γ interaction multipliers with three-tier uncertainty treatment (additive-only / γ sampled / γ central), and propagates parameter uncertainty through Monte Carlo with paired tier comparison.
+*Compound Security–Climate Vulnerability of a Desalination-Dependent Water System: Scenario Analysis for Israel.*
+
+Submitted to *Water Resources Research* (2026).
+
+## Repository contents
+
+The repository includes:
+
+* Input datasets and parameter files used in the analysis (`data/`)
+* Core modeling framework for compound crisis simulation (`multicrisis/`)
+* Analysis scripts used to generate manuscript results (`scripts/`)
+* Supporting notebooks (`notebooks/`)
+* Reproducibility outputs and benchmark results (`results/`)
+
+## Reproducing the analysis
+
+Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the complete analysis workflow:
+
+```bash
+bash run_all.sh
+```
+
+The workflow reproduces the scenario analysis, sensitivity analyses, uncertainty assessment, and supporting figures reported in the manuscript.
+
+## Data availability
+
+This repository contains the data, code, and scripts required to reproduce the analyses presented in the manuscript. The repository is provided for transparency and reproducibility during peer review and will be archived with a permanent DOI upon publication.
+
+## License
+
+MIT License.
+
+## Contact
+
+Natalie De Falco
+Zuckerberg Institute for Water Research
+Ben-Gurion University of the Negev
+[defalco@bgu.ac.il](mailto:defalco@bgu.ac.il)
+
 
 ## What's in the box
 
